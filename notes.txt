@@ -1,0 +1,127 @@
+🔹 OOPS Concepts 
+
+1. Class
+
+   . Class is a blueprint (design) of an object.
+
+   . Example: A "Car" class can have properties like color, model, speed, and methods like drive(), brake().
+
+2. Object
+
+   . Object is a real entity created from a class.
+
+   . Example: Car myCar = new Car(); → myCar is an object of the class Car.
+
+3. Encapsulation
+
+  . Wrapping data (variables) and methods (functions) together in a single unit (class).
+
+  . Example: In a bank account class, balance is private, but we access it using deposit() and withdraw() methods.
+
+4. Abstraction
+
+  . Hiding implementation details and showing only important features.
+
+  . Example: When you drive a car, you only use steering, brakes, accelerator. You don’t know the internal engine working.
+
+5. Inheritance
+
+  . One class can inherit properties and methods of another class.
+
+  . Example: Dog class inherits from Animal class.
+
+  . Animal → eat(), sleep()
+
+  . Dog → bark() + (eat, sleep from Animal)
+
+6. Polymorphism (Poly = many, Morph = forms)
+
+  . One thing can have many forms.
+
+  *Two types:
+
+    . Compile-time (Overloading) → same method name, different parameters.
+
+    . Runtime (Overriding) → same method name in parent & child class, but child gives its own implementation
+
+
+//////////////////+++++++++++///////////////////********************////////////////////
+
+
+🔹 OOPS Interview Questions 
+
+Q. What is OOPs?
+
+  . OOPs is a programming paradigm that uses classes and objects to structure code.
+
+Q. What is the difference between class and object?
+
+  . Class is a blueprint, object is an instance of the class.
+
+Q. What is encapsulation?
+
+  . Encapsulation is binding data and methods together, usually by making variables private and accessing them through getters/setters.
+
+Q. What is abstraction?
+
+  . Abstraction hides internal details and shows only essential features.
+
+Q. Difference between abstraction and encapsulation?
+
+  . Abstraction → Hides "implementation details".
+
+  . Encapsulation → Hides "data" using private variables.
+
+Q. What is inheritance?
+
+  . Inheritance allows one class (child) to use the properties and methods of another class (parent).
+
+Q. What is polymorphism?
+
+  . Ability of an object to take many forms (method overloading & method overriding).
+
+Q. What is method overloading vs overriding?
+
+  . Overloading → same method name, different parameters (compile-time).
+
+  . Overriding → child class redefines parent’s method (runtime).
+
+Q. What are access modifiers in OOPs?
+
+  . public, private, protected, default → control how data/methods can be accessed.
+
+Q. Why do we use OOPs?
+
+  . Reusability, maintainability, scalability, and better code structure.
+
+
+
+///////////////++++++++++++++++///////////////**************************///////////////
+
+Q. What are access modifiers in OOPs?
+
+(1) Quick summary (what they do)
+
+   . public — accessible everywhere (inside class, outside, derived).
+     (public → har jagah access)
+
+   . private — accessible only inside the same class (and friends).
+     (private → sirf usi class ke andar)
+
+   . protected — accessible inside the class and in derived (child) classes, but not via objects from outside.
+     (protected → class + derived classes)
+
+   . default — C++: no explicit keyword; members default to private inside class and public inside struct.
+    . Java: default (package-private) means accessible only inside the same package — C++ does not have Java-style package-default.
+
+
+
+🔹 Comparison Table (Quick Interview View)
+
+Modifier	Accessible in class	    Accessible in derived	    Accessible outside	   Best for
+
+1. public	           ✅	             ✅	                     ✅	                    APIs, functions meant for everyone
+2. private	           ✅	             ❌	                     ❌	                    Sensitive data, encapsulation
+3. protected	       ✅	             ✅	                     ❌	                    Inheritance, frameworks
+4. default (class)	   ✅ (private)	     ❌	                     ❌	                    Safety (if forgot keyword)
+.  default (struct)	✅ (public)	         ✅	                     ✅	                    Simple data structures    

@@ -1,0 +1,164 @@
+
+• OOPs
+  - What is it?
+    👉 OOPs = Object Oriented Programming System, a way to organize code using classes and objects.
+  - Purpose / How it helps:
+    • Organize code in real-world terms (Car, Student, Bank Account).
+    • Easy to reuse, scale, and maintain.
+  - Advantages:
+    • Real-world modeling.
+    • Reusability of code.
+    • Better security (encapsulation).
+    • Polymorphism gives flexibility.
+  - Disadvantages:
+    • More memory & complexity (compared to procedural programming).
+    • Learning curve is higher.
+  - Why use?
+    👉 Best for large projects where structure & reusability matter.
+    👉 Better than procedural (C) when we need modularity.
+  
+
+• Class vs Object
+  - What is it?
+    • Class = blueprint/design.
+    • Object = real entity created from class.
+  - Purpose:
+    • Class organizes structure; object represents real-world data.
+  - Advantages:
+    • Class → reusability.
+    • Object → multiple instances with different data.
+  - Disadvantages:
+    • Need memory for each object.
+    • Without objects, classes are useless.
+  - Why use?
+    👉 Needed to create real-world models in OOPs.
+    👉 Objects make classes practical.
+  -Real-time example:
+    👉 Car manufacturing industry → "Car" is a class, and BMW, Audi, Tesla are objects.
+  -Why used in industry:
+    .Helps in modular design (हर चीज़ को अलग class में रखना)
+    .Reusability → एक ही class से multiple objects बना सकते हैं।
+
+• Encapsulation
+  - What is it?
+    👉 Binding data + methods together; hide data using private and access with getters/setters.
+  - Purpose:
+    • Protect sensitive data (like bank balance).
+    • Provide controlled access.
+  - Advantages:
+    • Data security.
+    • Prevents accidental changes.
+    • Easy to maintain.
+  - Disadvantages:
+    • Extra code (getters/setters).
+    • Slightly less flexible than public access.
+  - Why use?
+    👉 Best when data must be protected.
+    👉 Better than abstraction when goal is data security.
+  - Real-time example:
+    👉 In Banking system – You can’t directly access balance (private), you can only use deposit() or withdraw() methods.
+  - Why used in industry:
+    . Improves security.
+    . Data consistency maintained.
+
+• Abstraction
+  - What is it?
+    👉 Hiding internal implementation, showing only features.
+  - Purpose:
+    • Reduce complexity for user.
+    • Example: Car driver uses steering, brake — engine internals hidden.
+  - Advantages:
+    • User-friendly.
+    • Focus on essentials, ignore unnecessary details.
+  - Disadvantages:
+    • Implementation complexity hidden → harder for debugging.
+    • Sometimes hides too much.
+  - Why use?
+    👉 Best when we need simplicity for user.
+    👉 Better than encapsulation for hiding logic/implementation.
+  -Real-time example:
+    👉 ATM Machine → You don’t know how internally money is processed, you just use withdraw() or checkBalance().
+  - Why used in industry:
+    . Reduces complexity.
+    . Focus only on "what to do", not "how to do".
+
+• Encapsulation vs Abstraction
+  - Encapsulation → Hides data (variables) inside class.
+  - Abstraction → Hides internal process, shows only necessary functions.
+  👉 Both work together:
+    • Encapsulation = security,
+    • Abstraction = simplicity.
+
+• Inheritance
+  - What is it?
+    👉 One class (child) reuses another class’s (parent) properties & methods.
+  - Purpose:
+    • Code reusability.
+    • “Is-a” relationship modeling.
+  - Advantages:
+    • Reduces code duplication.
+    • Easier extension of functionality.
+  - Disadvantages:
+    • Tight coupling → child depends on parent.
+    • Misuse leads to fragile hierarchy.
+  - Why use?
+    👉 Best for hierarchies (Animal → Dog, Cat).
+    👉 Better than writing code separately every time.
+
+• Polymorphism
+  - What is it?
+    👉 One thing, many forms.
+    • Compile-time: Method Overloading.
+    • Runtime: Method Overriding.
+  - Purpose:
+    • Flexibility in code.
+    • Same method name, different behavior.
+  - Advantages:
+    • Improves readability.
+    • Extensible.
+  - Disadvantages:
+    • Can confuse beginners.
+    • Debugging errors in overriding may be tricky.
+  - Why use?
+    👉 Best for flexible design.
+    👉 Better than inheritance alone (because it adapts behavior).
+
+• Method Overloading vs Overriding
+  - Overloading:
+    • Compile-time.
+    • Same name, different parameters.
+    • Advantage → readability, multiple versions of same logic.
+    • Disadvantage → not dynamic, fixed at compile time.
+  - Overriding:
+    • Runtime.
+    • Child class redefines parent’s method.
+    • Advantage → flexibility, polymorphism.
+    • Disadvantage → can cause bugs if logic wrongly overridden.
+  👉 Overloading = convenience, Overriding = flexibility.
+
+• Access Modifiers
+  - What is it?
+    👉 Keywords that control who can access data/methods: public, private, protected, default.
+  - Purpose:
+    • Security & controlled access.
+  - Advantages:
+    • Ensures correct usage of data.
+    • Helps in encapsulation & abstraction.
+  - Disadvantages:
+    • Wrong choice of modifier → misuse.
+    • Over-restrictive → code harder to extend.
+  - Why use?
+    👉 Best for defining clear API boundaries.
+    👉 Better than no modifiers (procedural code).
+
+• Why use OOPs?
+  - Advantages:
+    • Reusability, maintainability, scalability, modularity.
+    • Security (private data).
+    • Flexibility (polymorphism).
+  - Disadvantages:
+    • More memory usage.
+    • Slightly slower than procedural (function calls, objects).
+    • Harder to learn for beginners.
+  - Why best?
+    👉 For big projects, real-world modeling, and teamwork, OOPs is much better than procedural programming.
