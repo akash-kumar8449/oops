@@ -1,0 +1,129 @@
+📌 Inheritance in OOPs (Object-Oriented Programming)
+
+🔹 What is Inheritance?
+Inheritance means one class (child class) can use the properties and methods of another class (parent class).
+It helps to reuse old code instead of writing it again.
+
+------------------------------------------------------------
+
+🔹 Types of Inheritance
+
+1. Single Inheritance
+   - One child class from one parent class.
+   - Example: Car inherits from Vehicle.
+
+2. Multiple Inheritance
+   - One child class from more than one parent class.
+   - Example: Student inherits from Person and Learner.
+   - (Allowed in C++, not in Java).
+
+3. Multilevel Inheritance
+   - A class inherits from another class, and then another class inherits from it.
+   - Example: Animal → Mammal → Dog.
+
+4. Hierarchical Inheritance
+   - Many child classes inherit from one parent class.
+   - Example: Vehicle → Car, Bike, Truck.
+
+5. Hybrid Inheritance
+   - A mix of different inheritance types (single + multiple + multilevel).
+
+------------------------------------------------------------
+
+🔹 Real Life Examples
+
+- Vehicle Example:
+  - Parent: Vehicle (speed, fuel, wheels).
+  - Child: Car, Bike, Truck.
+  - Each child has basic features of Vehicle + their own features.
+
+- Company Example:
+  - Parent: Employee (name, salary).
+  - Child: Manager, Developer, Intern.
+  - All employees have common details, but each role is different.
+
+------------------------------------------------------------
+
+🔹 Advantages of Inheritance
+
+1. Reuse old code.
+2. Code is simple and easy to understand.
+3. New features can be added easily.
+4. Supports polymorphism (same method can work in different ways).
+
+------------------------------------------------------------
+
+🔹 Disadvantages of Inheritance
+
+1. Child depends on parent too much.
+2. Multiple inheritance can make code confusing.
+3. Child may get features it does not need.
+4. Too many levels of inheritance can make program slow and hard to follow.
+
+
+
+/////////////////////++++++++++++++++++///////////////////++++++++++++++++++/////////////
+
+============================
+   Constructor in OOPs (C++)
+============================
+
+What is Constructor?
+--------------------
+- A constructor is a special function inside a class.
+- Its name is the same as the class name.
+- It runs automatically when an object is created.
+- It is mainly used to initialize variables (properties) of the object.
+
+Types of Constructors
+---------------------
+1. Default Constructor
+   - No parameters.
+   - Automatically gives default values.
+
+2. Parameterized Constructor
+   - Takes arguments.
+   - Used to give values while creating the object.
+
+3. Copy Constructor
+   - Copies values from one object to another.
+
+Purpose of Constructor
+----------------------
+- To save time (no need to call a function separately for initialization).
+- To make code cleaner and more readable.
+- To ensure object always starts with proper values.
+
+Real-Time Example
+-----------------
+Imagine you create a class BankAccount:
+- Every time a new account is opened, you want the account holder’s
+  name, account number, and balance to be automatically set.
+- A constructor will do this setup as soon as the object is created.
+
+Advantages of Constructor
+-------------------------
+✔ Automatically called → no need to call manually.
+✔ Improves readability and clean code.
+✔ Ensures initialization at the time of object creation.
+✔ Supports overloading (many constructors in the same class with different parameters).
+
+Disadvantages of Constructor
+----------------------------
+✘ Cannot be inherited.
+✘ No return type (not even void).
+✘ If we create many constructors, sometimes it becomes confusing which one will run.
+
+Why Constructor is Better than Normal Function?
+-----------------------------------------------
+- Normal function: You must call it separately.
+- Constructor: Runs automatically when object is created → saves effort.
+
+////////////////////++++++++++++++//////////////////////+++++++++++++++++
+
+
+🔹 What is Getter & Setter?
+
+    . Setter Method → used to set (change) the value of a private variable.
+
+    . Getter Method → used to get (access) the value of a private variable.
