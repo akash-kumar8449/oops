@@ -1,0 +1,32 @@
+Polymorphism in OOPs
+
+1. What is Polymorphism?
+- Polymorphism means "one thing, many forms".
+- Same function/method name, but different behavior depending on how it’s used.
+- It gives flexibility to the program.
+
+2. Types of Polymorphism in C++
+- Compile-time Polymorphism (Static Binding)
+  -> Achieved by Function Overloading or Operator Overloading.
+  -> Decision is made at compile time.
+- Runtime Polymorphism (Dynamic Binding)
+  -> Achieved by Function Overriding (with inheritance + virtual functions).
+  -> Decision is made at runtime.
+
+3. Real Life Examples
+- Compile-time: A Calculator can add(2,3) → integers OR add(2.5,3.7) → decimals.
+- Runtime: A Shape can be Circle, Rectangle, Triangle → all have a draw() method but work differently.
+
+4. Advantages of Polymorphism
+- Flexibility in using the same function in different ways.
+- Code is easier to extend and maintain.
+- Supports real-world modeling.
+
+5. Disadvantages of Polymorphism
+- Increases complexity for beginners.
+- Virtual functions (runtime polymorphism) may be slightly slower.
+
+👉 Easy Summary:
+Polymorphism = One name, many behaviors.
+Overloading = compile-time.
+Overriding = runtime.

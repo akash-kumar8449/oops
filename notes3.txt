@@ -74,6 +74,8 @@ What is Constructor?
 - Its name is the same as the class name.
 - It runs automatically when an object is created.
 - It is mainly used to initialize variables (properties) of the object.
+- It has no return type
+- is ka kam hota h memory allocate kerna ya dena object ko 
 
 Types of Constructors
 ---------------------
@@ -127,3 +129,27 @@ Why Constructor is Better than Normal Function?
     . Setter Method → used to set (change) the value of a private variable.
 
     . Getter Method → used to get (access) the value of a private variable.
+
+
+
+❓ Q: What is the use of the this keyword?
+  👉 Answer:
+  this keyword refers to the current object. It is mainly used when the local variable name is 
+  same as the class variable, to avoid confusion.
+
+
+🔹 What is Destructor?
+  A Destructor is a special function of a class.
+  Its name is same as the class but with a tilde (~) symbol.
+  It is called automatically when an object goes out of scope or is deleted.
+
+🔹 Purpose of Destructor
+  To free resources (memory, files, database connections).
+  To clean up before an object is destroyed.
+  It ensures there are no memory leaks.
+
+🔹 Rules of Destructor
+  Destructor has same name as class with ~.
+  It cannot take arguments.
+  It cannot return a value.
+  It is called only once for each object.
